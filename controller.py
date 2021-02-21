@@ -20,7 +20,7 @@ def save_emp_info():
 
         emp= Employee( Empid=Empid,Firstname=Fnm, Lastname=Lnm, DOB=DOB, Address=Adr, Gender=gen, Email=email)
         dbstud = empop.fetch_single_employee(Empid)
-        if dbstud:
+        if dbstud
             msg = empop.update_employee(Empid, emp)
         else:
             msg = empop.insert_employee(emp)
