@@ -14,3 +14,6 @@ class EmployeeOperations:
     def fetch_all_employee(self):
         return Employee.query.filter(Employee.active=='Y').all()
 
+
+        #-->Kapil myakal
+
